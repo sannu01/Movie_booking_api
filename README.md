@@ -21,7 +21,7 @@ It uses <b>"PUT"</b> method and return the updated details of the ticket.
 ![update_time](https://github.com/sannu01/Movie_booking_api/blob/master/output/update_ticket.png)
   
 The endpoint <b>"/delete/ticketid"</b> deletes a ticket with requested <b>ticketid</b>, it checks for whether ticket id exist or not and then return the message on successful deletion. It uses <b>"DELETE"</b> method.
-
+![delete](https://github.com/sannu01/Movie_booking_api/blob/master/output/delete_ticket.png)
  
  
 The <b>api</b> automatically checks on some interval for expired ticket, if the difference between present time and ticket timing is more than <b>8 hours</b> the it <b>deletes</b> those tickets from database.
