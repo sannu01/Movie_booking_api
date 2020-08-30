@@ -15,7 +15,7 @@ It provides an endpoint <b>"/view_ticket/timing"</b> to show all the tickets act
 The endpoint <b>"/user/ticketid"</b> return the users details for that particular <b>ticketid</b>, it uses <b>"GET"</b> method.
 
 
-The endpoint <b>"/update_time"</b> takes json parameter having <b>ticketid</b> and <b>timing<b>, it checks for a valid futute time and then updates the time of the ticket.
+The endpoint <b>"/update_time"</b> takes json parameter having <b>ticketid</b> and <b>timing</b>, it checks for a valid futute time and then updates the time of the ticket.
 It uses <b>"PUT"</b> method and return the updated details of the ticket.
   
   
