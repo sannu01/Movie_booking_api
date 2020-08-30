@@ -19,7 +19,11 @@ The endpoint <b>"/update_time"</b> takes json parameter having <b>ticketid</b> a
 It uses <b>"PUT"</b> method and return the updated details of the ticket.
   
   
- The endpoint <b>"/delete/ticket
-  
+ The endpoint <b>"/delete/ticketid"</b> deletes a ticket with requested <b>ticketid</b>, it checks for whether ticket id exist or not and then return the message on successful deletion. It uses <b>"DELETE"</b> method. 
+ 
+ 
+ 
+The <b>api</b> automatically checks on some interval for expired ticket, if the difference between present time and ticket timing is more than <b>8 hours</b> the it <b>deletes</b> those tickets from database.
+
 
   
